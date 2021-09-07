@@ -1,0 +1,16 @@
+form{
+    background-color: rgb(84, 216, 198);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    background-color: red;
+    border: 60px;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+}
