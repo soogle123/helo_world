@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    form{
+        background-color: rgb(84, 216, 198);
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    input{
+        background-color: red;
+        border: 60px;
+        border-radius: 15px;
+        height: 30px;
+        width: 200px;
+    }
+    
+    </style>
+    
+</head>
+<body>
+    <h1>login</h1>
+    <form action="/submit" method="POST" >
+        <p>username</p>
+        <input type="text" name="username">
+        <p>password</p>
+      <input type="text" name="password">
+      <button type="submit">login</button>
+    </form>
+    
+    </form>
+</body>
+</html>
